@@ -6,7 +6,7 @@ This project is an Instagram clone built with React, utilizing React Hooks for s
 
 To get started with this project:
 
-1. Clone the repository: `git clone [repository-url](https://github.com/shakiba-vakili/IG-Clone)`
+1. Clone the repository: `git clone https://github.com/shakiba-vakili/IG-Clone`
 2. Install dependencies: `yarn install`
 3. Start the development server: `yarn start`
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
