@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/IG-Clone/static/css/main.71d9e5bc.css",
+    "main.js": "/IG-Clone/static/js/main.cd399c93.js",
+    "static/js/787.38f16daf.chunk.js": "/IG-Clone/static/js/787.38f16daf.chunk.js",
+    "index.html": "/IG-Clone/index.html",
+    "main.71d9e5bc.css.map": "/IG-Clone/static/css/main.71d9e5bc.css.map",
+    "main.cd399c93.js.map": "/IG-Clone/static/js/main.cd399c93.js.map",
+    "787.38f16daf.chunk.js.map": "/IG-Clone/static/js/787.38f16daf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71d9e5bc.css",
+    "static/js/main.cd399c93.js"
+  ]
+}
