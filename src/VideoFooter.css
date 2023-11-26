@@ -1,0 +1,88 @@
+.videoFooter {
+  position: relative;
+  margin-left: 20px;
+  bottom: 100px;
+}
+
+.videoFooter__text {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.videoFooter__text > h3 {
+  margin-left: 10px;
+  padding-bottom: 20px;
+  font-size: 0.8rem;
+}
+
+.videoFooter__text > h3 > button {
+  color: rgb(0, 102, 255);
+  text-transform: inherit;
+  font-weight: 900;
+}
+
+.videoFooter__ticker {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  width: 70%;
+  overflow: hidden;
+}
+.videoFooter__ticker h4 {
+  font-size: 12px;
+  color: white;
+  padding-top: 7px;
+}
+
+.videoFooter__actions {
+  display: flex;
+  color: white;
+  position: absolute;
+  width: 95%;
+  justify-content: space-between;
+}
+
+.videoFooter__actionsLeft > .MuiSvgIcon-root {
+  padding-right: 10px;
+  padding-top: 15px;
+}
+.videoFooter__actionsRight {
+  display: flex;
+}
+.videoFooter__stat {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.videoFooter__stat > p {
+  margin-left: 3px;
+  padding-top: 15px;
+}
+
+.videoFooter__stat__icon {
+  padding-top: 15px;
+  font-size: 1rem !important;
+}
+
+.videoFooter__icon {
+  font-size: 1.2rem !important;
+}
+.ticker-text {
+  animation: tickerAnimation 10s linear infinite;
+  margin-left: 20px; /* Adjust the margin as needed */
+  white-space: nowrap; /* Prevent the text from wrapping */
+}
+
+@keyframes tickerAnimation {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

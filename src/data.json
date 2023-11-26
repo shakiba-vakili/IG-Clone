@@ -1,0 +1,38 @@
+[
+  {
+    "key": 1,
+    "avatarSrc": "pic1.jpg",
+    "channel": "PixelPerfectDev",
+    "likes": 18,
+    "shares": 54,
+    "song": "\"Someone Like You\" - Adele (Pop/Ballad)",
+    "url": "vid1.mp4"
+  },
+  {
+    "key": 2,
+    "avatarSrc": "pic2.jpg",
+    "channel": "FrontendWonders",
+    "likes": 485,
+    "shares": 146,
+    "song": "\"Blinding Lights\" - The Weeknd (R&B/Pop)",
+    "url": "vid2.mp4"
+  },
+  {
+    "key": 3,
+    "avatarSrc": "pic3.jpg",
+    "channel": "cleverDevelopeeeer",
+    "likes": 456,
+    "shares": 30,
+    "song": "\"Bohemian Rhapsody\" - Queen (Rock)",
+    "url": "vid3.mp4"
+  },
+  {
+    "key": 4,
+    "avatarSrc": "pic4.jpg",
+    "channel": "UIUXFrontiers",
+    "likes": 159,
+    "shares": 12,
+    "song": "\"Shape of You\" - Ed Sheeran (Pop)",
+    "url": "vid4.mp4"
+  }
+]

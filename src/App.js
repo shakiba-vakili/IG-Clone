@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import React from "react";
+import VideoCard from "./VideoCard";
+import data from "./data.json";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // BEM naming convention
+    <div className="app">
+      <div className="app__top">
+        {/* {image at top - logo} */}
+        <img
+          className="app__logo"
+          src="./Instagram_logo_2022.svg.png"
+          alt="instagram logo"
+        />
+        <h2>Reels</h2>
+        {/* {Reels text} */}
+      </div>
+      <div className="app__videos">
+        {data.map(
+          ({ channel, avatarSrc, song, url, likes, shares, key }, index) => {
+            console.log("Key:", key); // Log the key value
+            return (
+              <VideoCard
+                key={key || index} // Use key if present, otherwise fallback to index
+                channel={channel}
+                avatarSrc={avatarSrc}
+                song={song}
+                url={url}
+                likes={likes}
+                shares={shares}
+              />
+            );
+          }
+        )}
+      </div>
     </div>
   );
 }
