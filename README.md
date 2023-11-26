@@ -1,4 +1,4 @@
-# Instagram Clone with React
+# Instagram Reel Clone with React
 
 This project is an Instagram clone built with React, utilizing React Hooks for state management. The project incorporates vertical snapping in CSS and Material UI for styling, following the teachings from Clever Programmer.
 
