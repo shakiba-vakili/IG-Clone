@@ -2,11 +2,11 @@ import React from "react";
 import "./VideoFooter.css";
 import Avatar from "@mui/material/Avatar";
 import { Button } from "@mui/material";
-import MusicNoteIcon from "@mui/icons-material/MusicNote";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ModeCommentIcon from "@mui/icons-material/ModeComment";
-import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
-import SendIcon from "@mui/icons-material/Send";
+import MusicNoteIcon from '@mui/icons-material/MusicNote';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import ModeCommentIcon from '@mui/icons-material/ModeComment';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import SendIcon from '@mui/icons-material/Send';
 const VideoFooter = ({ url, likes, shares, avatarSrc, song, channel }) => {
   return (
     <div className="videoFooter">
